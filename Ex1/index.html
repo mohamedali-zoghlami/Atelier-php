@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Resa</title>
+    <link rel="stylesheet" href="resa.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Commande de Sandwich</h1>
+    <form method="post" action="recap.php" name="comm">
+       <div> Nom : <input type="text" name="nom" required></div><br>
+       <div> Prenom : <input type="text" name="prenom" required></div><br>
+       <div>Adresse : <textarea rows="5" cols="30" name="adr" required></textarea></div><br>
+        <div>Nombre de Sandwich : <input type="number" name="nbr" min="1" required></div><br>
+       <div> Type Sandiwch :
+        <select name="type" >
+            <option value="Viande" selected="selected">Viande</option>
+            <option value="Poulet">Poulet</option>
+            <option value="Escalope">Escalope</option>
+        </select></div><br>
+        <div>Ingrediants : <input type="checkbox" name="Harissa"> Harissa <input type="checkbox" name="Salade"> Salade <input type="checkbox" name="Mayo"> Mayo </div><br>
+        <div>Select cin to upload:
+            <input type="file" name="cin" required></div><br>
+        <div><input type="submit" value="Commander">  <input type="reset" value="Réinitaliser"> </div>
+    </form>
+</div> 
+</body>
+</html>

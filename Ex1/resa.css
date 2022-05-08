@@ -1,0 +1,13 @@
+h1{
+    color:chocolate;
+}
+.container
+{
+    text-align: center;
+}
+
+.container div
+{
+    display: inline-block;
+    margin-bottom: 2%;
+}

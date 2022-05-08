@@ -1,0 +1,22 @@
+h1{
+    color:chocolate;
+}
+p{
+    color :darksalmon;
+    font-weight: bold;
+    font-size: 1,5em;
+}
+.text
+{
+    color:brown;
+    font-weight:bold;
+    font-size: 2em;
+    text-align: right;
+}
+.container
+{
+    margin-top: 1%;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
